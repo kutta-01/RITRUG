@@ -1,0 +1,153 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+}
+
+html .mobile-header .hidden-lg .header .top-head,
+body .mobile-header .hidden-lg .header .top-head{
+    background-color: rgb(76, 76, 141);
+    color: white;
+    width: 100%;
+    height: 40px;
+    margin: 0px;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+html .mobile-header .hidden-lg .sidenav,
+body .mobile-header .hidden-lg .sidenav {
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: white;
+overflow-x: hidden;
+transition: 1s;
+padding-top: 40px;
+}
+html .mobile-header .hidden-lg .sidenav a,
+body .mobile-header .hidden-lg .sidenav a {
+  padding: 8px 8px 12px 24px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+html .mobile-header .hidden-lg .closebtn,
+body .mobile-header .hidden-lg .closebtn {
+  position: absolute;
+  top: 0;
+   right: 0%;
+  font-size: inherit;
+  font-weight: 1550;
+}
+html .mobile-header .hidden-lg .bar-icon,
+body .mobile-header .hidden-lg .bar-icon {
+  margin-top: 11px;
+  display: inline-block;
+}
+html .mobile-header .hidden-lg .bar-icon .heading-cart .sr-only,
+body .mobile-header .hidden-lg .bar-icon .heading-cart  .sr-only{
+ display: inline-block;
+}
+html .mobile-header .header-rit,
+body .mobile-header .header-rit {
+  margin-top: 0px;
+  padding-bottom: 30px;
+}
+html .mobile-header .header-rit .mobile-logo,
+body .mobile-header .header-rit .mobile-logo {
+  display: block;
+}
+html .mobile-header .header-rit .mobile-logo #logo-id,
+body .mobile-header .header-rit .mobile-logo #logo-id {
+  margin-top: 34px;
+  padding-left: 5px;
+  max-width: 38%;
+  width: 50%;
+  height: 50%;
+}
+html .mobile-header .header-rit .top-head,
+body .mobile-header .header-rit .top-head{
+  padding: 0px;
+  background-color: rgb(76, 76, 141);
+    color: white;
+   margin-top: 0px;
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+html .mobile-header .header-rit .second-nav,
+body .mobile-header .header-rit .second-nav{
+  background-color:#dcdcdc85;
+    width: 100%;
+    height: 40px;
+    text-align: right;
+    display: inline-block;
+    padding: 10px;
+}
+html .mobile-header .header-rit .second-nav a,
+body .mobile-header .header-rit .second-na a{
+  color: rgba(0, 0, 0, 0.781);
+  padding: 20px;
+  font-size: 18px;
+}
+html .mobile-header .side-head,
+body .mobile-header .side-head{
+     float: unset;
+
+}
+html .mobile-header .side-head h1,
+body .mobile-header .side-head h1{
+  
+   font-size: 23px;
+   color:#8f0a0a;
+   font-weight: bold;
+}
+html .mobile-header  .side-head span,
+body .mobile-header   .side-head span{
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+}
+html .mobile-header .side-head p,
+body .mobile-header .side-head p{
+  color: black;
+  font-size: 13px;
+} 
+html .mobile-header .side-head .btn,
+body .mobile-header .side-head .btn{
+   width: 100%;
+    right: inherit;
+    color: #fff;
+    background-color:#8f0a0a;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+   
+    padding: 10px 5px;
+    margin: 25px 10px 35px 20px;
+    border-radius: 1px;
+    text-transform: uppercase;
+    position: relative;
+}
+html .mobile-header .side-head i,
+body .mobile-header .side-head i{
+position: absolute;
+right: 40px;
+top: 49%;
+text-align: right;
+transform: translateY(25px);
+font-size: 45px;
+font-weight: 700;
+color: wheat;
+z-index: 1;
+}
